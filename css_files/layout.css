@@ -1,0 +1,52 @@
+.flex {
+    display: flex;
+}
+
+.dl-container {
+    justify-content: center;
+    width: 100%;
+}
+
+.divisor-line {
+    width: 80%;
+    height: 1px;
+    background-color: rgb(200, 200, 200);
+}
+
+.section-padding {
+    padding: 0 2rem;
+}
+
+/* ----------------------------------------------- */
+
+body {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+.body {
+    max-width: 1900px;
+    width: 100%;
+    height: auto;
+}
+
+.about {
+    flex-direction: column;
+    align-items: center;
+    padding: 3rem 0;
+}
+
+.skills {
+    padding-bottom: 2rem;
+}
+
+footer {
+    display: grid;
+    grid-template-columns: 1fr;
+    background-color: rgb(245, 245, 245);
+    width: 100%;
+    padding: 2rem 0 0 0;
+    margin-top: 3rem;
+}

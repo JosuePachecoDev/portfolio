@@ -1,0 +1,175 @@
+.porfile-picture {
+    width: 200px;
+    height: auto;
+    margin: 0;
+    padding: 0;
+    border-radius: 1rem;
+}
+
+.name {
+    margin: 1rem 0 0 0;
+}
+
+.about-svg-container {
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+.about-svg-container a {
+    margin: 0 8px;
+}
+
+.about-svg {
+    width: 2.5rem;
+    height: auto;
+}
+
+.slider-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+.slider {
+    width: 100%;
+    max-width: 80%;
+    overflow: hidden;
+    margin: 0;
+}
+
+.slider-track {
+    display: flex;
+    width: fit-content;
+    animation: scroll 20s linear infinite;
+}
+
+.slider-track label {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 1rem;
+    width: auto;
+}
+
+.skills-svg {
+    width: auto;
+    height: 125px;
+    margin-bottom: 1rem;
+}
+
+.projects-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    row-gap: 1rem;
+}
+
+.pcon {
+    display: flex;
+    justify-content: center;
+}
+
+.project {
+    border-radius: 1rem;
+    overflow: hidden;
+    width: 90%;
+}
+
+.pi {
+    background: rgb(7, 18, 136);
+    /* background: linear-gradient(rgb(7, 18, 136) 60%, rgba(255, 255, 255, 0)); */
+    aspect-ratio: 16/9;
+    cursor: pointer;
+}
+
+.project-svg {
+    width: 64px;
+    height: auto;
+    margin: 0 1rem;
+}
+
+.pt {
+    padding: 0 0.5rem;
+}
+
+.svg-space {
+    width: 0.75rem;
+    height: 100%;
+}
+
+.sm-container {
+    padding: 0 2rem;
+}
+
+.sm-container div {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.co-container {
+    padding: 0 2rem;
+}
+
+.isotipo-element-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.co-svg {
+    width: 20px;
+    height: auto;
+}
+
+.co-container ul {
+    padding: 0;
+}
+
+.li-element-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 0.5rem;
+}
+
+.co-container ul li {
+    list-style: none;
+    padding: 0;
+    display: inline;
+    margin-left: 1rem;
+}
+
+.pm-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 3rem 0;
+    text-align: center;
+}
+
+.monogram {
+    width: 50px;
+    height: auto;
+}
+
+.name2 {
+    margin-bottom: 0.25rem;
+}
+
+.sm-svg {
+    width: 2.5rem;
+    height: auto;
+}
+
+.ft-container {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background-color: rgb(230, 230, 230);
+}
+
+.final-text {
+    font-size: 12px;
+}
