@@ -1,17 +1,15 @@
-# Content License
+# Licencia de Contenido
+Todo archivo multimedia contenido en la carpeta `portfolio.io/multimedia-files/PERSONAL` en este repositorio, incluyendo, entre otros, imágenes, archivos de audio, videoclips, animaciones y gráficos, está protegido por derechos de autor y es propiedad intelectual del propietario del repositorio o de sus respectivos creadores.
 
-All multimedia content in this repository — including but not limited to images, audio files, video clips, animations, and graphics — is protected by copyright and remains the intellectual property of the repository owner or its respective creators.
+## Restricciones
+- *Prohibido el uso comercial*: No se permite usar, copiar, reproducir, modificar, distribuir ni transmitir el contenido de la carpeta antes mencionada para ningún fin sin autorización escrita explícita de su respectivo autor y propietario.
 
-## Restrictions
+- *Prohibida la redistribución*: Queda estrictamente prohibida la redistribución del contenido de la carpeta antes mencionada, total o parcial, en cualquier forma o medio, a menos que se autorice expresamente del autor y propietario.
 
-- **No Commercial Use**: You are not permitted to use, copy, reproduce, modify, distribute, or transmit any multimedia content from this repository for commercial purposes without explicit written permission.
-- **No Redistribution**: Redistribution of the multimedia content, in whole or in part, in any form or medium, is strictly prohibited unless explicitly authorized.
-- **No Derivative Works**: Creating derivative works from the multimedia content is not allowed without prior written consent.
+- *Prohibida la creación de obras derivadas*: No se permite la creación de obras derivadas del contenido multimedia sin autorización previa por escrito del autor y propietario.
 
-## Exceptions
+## Excepciones
+El uso del contenido multimedia con fines personales, educativos o no comerciales puede permitirse bajo el uso legítimo o doctrinas similares, siempre que se otorgue el crédito correspondiente y no se realicen modificaciones. Para cualquier consulta o solicitud de permisos, póngase en contacto con el propietario del repositorio.
 
-Use of the multimedia content for personal, educational, or non-commercial purposes may be allowed under fair use or similar doctrines, provided appropriate credit is given and no alterations are made. Please contact the repository owner for any questions or permissions.
-
----
-
-© 2025 Josué Benjamín Pacheco. All rights reserved.
+© 2025 Josué Benjamín Pacheco.
+Todos los derechos reservados.

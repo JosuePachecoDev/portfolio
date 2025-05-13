@@ -1,23 +1,13 @@
-MIT License
+Licencia MIT
 
-Copyright (c) 2025 Josué Benjamín Pacheco
+Copyright © 2025 Josué Benjamín Pacheco.
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+Por medio de la presente, se concede permiso gratuito a cualquier persona que obtenga una copia de este software y los archivos de documentación asociados, para utilizarlo sin restricciones, incluyendo, entre otros, los derechos de uso, copia, modificación, fusión, publicación, distribución, sublicencia y/o venta de copias del Software, y para permitir que las personas a quienes se les proporciona el Software lo hagan, sujeto a las siguientes condiciones:
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
+El aviso de derechos de autor anterior y este aviso de permiso se incluirán en todas las copias o partes sustanciales del Software.
 
-**Note:** This license applies **only to the source code** and does **not** cover any multimedia content (such as images, audio, video, or personal media files) located in the `multimedia_files` directory. For usage rights of that content, please refer to `CONTENT_LICENSE.md`.
+**IMPORTANTE:** Esta licencia se aplica *única y exclusivamente al código fuente* y *no cubre* ningún contenido multimedia que se aloja en el directorio `portfolio.io/multimedia_files/PERSONAL`.
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+Para conocer los derechos de uso de dicho contenido, consulte `CONTENT_LICENSE.md`, que se encuentra en la carpeta raíz de este repositorio.
+
+EL SOFTWARE SE PROPORCIONA "TAL CUAL", SIN GARANTÍA DE NINGÚN TIPO, EXPRESA O IMPLÍCITA, INCLUYENDO, ENTRE OTRAS, LAS GARANTÍAS DE COMERCIABILIDAD, IDONEIDAD PARA UN PROPÓSITO PARTICULAR Y NO INFRACCIÓN. EN NINGÚN CASO LOS AUTORES O TITULARES DE LOS DERECHOS DE AUTOR SERÁN RESPONSABLES DE NINGUNA RECLAMACIÓN, DAÑOS U OTRAS RESPONSABILIDADES, YA SEA EN UNA ACCIÓN CONTRACTUAL, EXTRACONTRACTUAL O DE OTRO TIPO, QUE SURJA DE, EN RELACIÓN CON EL SOFTWARE O CON EL USO U OTRAS RELACIONES CON EL SOFTWARE.
