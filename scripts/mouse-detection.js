@@ -24,17 +24,29 @@ function hoverWithMouse() {
     });
 
     projectImage.forEach(div => {
-        div.addEventListener("mouseenter", () => {
-            div.classList.add("pi-on");
-            div.classList.add("active");
-            div.innerHTML = `
-                <a href="https://github.com/JosuePachecoDev/password-generator.git">
-                    <img class="project-svg" src="multimedia_files/github-isotype.svg" alt="">
-                </a>
-                <a href="https://josuepachecodev.github.io/password-generator/" target="_blank">
-                    <img class="project-svg" src="multimedia_files/new-tab-icon.svg" alt="">
-                </a>
-            `;
+        div.addEventListener("mouseenter", (e) => {
+            if (e.target.id === "project-1") {
+                e.target.innerHTML = `
+                    <a href="https://github.com/JosuePachecoDev/password-generator.git">
+                        <img class="project-svg" src="multimedia_files/github-isotype.svg" alt="">
+                    </a>
+                    <a href="https://josuepachecodev.github.io/password-generator/" target="_blank">
+                        <img class="project-svg" src="multimedia_files/new-tab-icon.svg" alt="">
+                    </a>
+                `;
+            } else {
+                e.target.innerHTML = `
+                    <a href="#">
+                        <img class="project-svg" src="multimedia_files/github-isotype.svg" alt="">
+                    </a>
+                    <a href="#">
+                        <img class="project-svg" src="multimedia_files/new-tab-icon.svg" alt="">
+                    </a>
+                ` ;
+            }
+
+            e.target.classList.add("pi-on");
+            e.target.classList.add("active");
         });
     });
 
@@ -53,22 +65,33 @@ function intersectionObserver() {
         const project = entry.target;
         const pi = project.querySelector('.pi');
 
-            if (entry.isIntersecting) {
-                project.classList.add('visible');
-                pi.classList.add('pi-on');
+        if (entry.isIntersecting) {
+            project.classList.add('visible');
+            pi.classList.add('pi-on');
+            if (pi.id === "project-1") {
                 pi.innerHTML = `
-                <a href="https://github.com/JosuePachecoDev/password-generator.git">
-                    <img class="project-svg" src="multimedia_files/github-isotype.svg" alt="">
-                </a>
-                <a href="https://josuepachecodev.github.io/password-generator/" target="_blank">
-                    <img class="project-svg" src="multimedia_files/new-tab-icon.svg" alt="">
-                </a>
-            `;
+                    <a href="https://github.com/JosuePachecoDev/password-generator.git">
+                        <img class="project-svg" src="multimedia_files/github-isotype.svg" alt="">
+                    </a>
+                    <a href="https://josuepachecodev.github.io/password-generator/" target="_blank">
+                        <img class="project-svg" src="multimedia_files/new-tab-icon.svg" alt="">
+                    </a>
+                `;
             } else {
-                project.classList.remove('visible');
-                pi.classList.remove('pi-on');
-                pi.innerHTML = "";
+                pi.innerHTML = `
+                    <a href="#">
+                        <img class="project-svg" src="multimedia_files/github-isotype.svg" alt="">
+                    </a>
+                    <a href="#">
+                        <img class="project-svg" src="multimedia_files/new-tab-icon.svg" alt="">
+                    </a>
+                    `;
             }
+        } else {
+            project.classList.remove('visible');
+            pi.classList.remove('pi-on');
+            pi.innerHTML = "";
+        }
     });
     }, {
     threshold: 0.85
