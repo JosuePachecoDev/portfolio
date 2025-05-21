@@ -34,6 +34,12 @@ function hoverWithMouse() {
                         <img class="project-svg" src="multimedia_files/new-tab-icon.svg" alt="">
                     </a>
                 `;
+            } else if (e.target.id === "project-2") {
+                e.target.innerHTML = `
+                    <a href="https://github.com/JosuePachecoDev/page-not-found.git">
+                        <img class="project-svg" src="multimedia_files/github-isotype.svg" alt="">
+                    </a>
+                `;
             } else {
                 e.target.innerHTML = `
                     <a href="#">
@@ -75,6 +81,12 @@ function intersectionObserver() {
                     </a>
                     <a href="https://josuepachecodev.github.io/password-generator/" target="_blank">
                         <img class="project-svg" src="multimedia_files/new-tab-icon.svg" alt="">
+                    </a>
+                `;
+            } else if (pi.id === "project-2") {
+                pi.innerHTML = `
+                    <a href="https://github.com/JosuePachecoDev/page-not-found.git">
+                        <img class="project-svg" src="multimedia_files/github-isotype.svg" alt="">
                     </a>
                 `;
             } else {
