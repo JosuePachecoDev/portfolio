@@ -1,0 +1,42 @@
+.flex {
+    display: flex;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    color: rgb(7, 18, 136);
+}
+
+p {
+    text-align: justify;
+}
+
+.no-style-link {
+    text-decoration: none;
+}
+
+/* línea divisoria */
+.dl-container {
+    justify-content: center;
+    width: 100%;
+}
+
+.divisor-line {
+    width: 80%;
+    height: 1px;
+    background-color: rgb(200, 200, 200);
+}
+
+.section-padding {
+    padding: 0 2rem;
+}
+
+.no-margin {
+    margin: 0;
+}
+
+.no-padding {
+    padding: 0;
+}
