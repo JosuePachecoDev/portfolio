@@ -153,6 +153,10 @@ body {
     background-image: url(../multimedia_files/img-demo-error-404-ep.jpg);
 }
 
+#project-3 {
+    background-image: url(../multimedia_files/img-demo-coffe-monster.jpg);
+}
+
 .project-svg {
     width: 3rem;
     height: auto;
