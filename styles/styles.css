@@ -259,3 +259,33 @@ footer {
     border: solid 1px rgb(230, 230, 230);
     transform: scale(1.02);
 }
+
+/* SVG fills */
+
+.white-fill {
+    fill: #ffffff;
+}
+
+.black-fill {
+    fill: #000000;
+}
+
+.linkedin-fill {
+    fill: #0a66c2;
+}
+
+.behance-fill {
+    fill: #0077ff;
+}
+
+.instagram-fill {
+    fill: url("#instagram-gradient");
+}
+
+.facebook-fill {
+    fill: #0866ff;
+}
+
+.whatsapp-fill {
+    fill: #25d366;
+}

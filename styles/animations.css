@@ -1,6 +1,9 @@
 .pi {
-  transition: background-color 1s ease;
+    transition: background-color 1s ease;
+}
 
+.about-svg, .sm-svg {
+    transition: fill 0.15s ease;
 }
 
 @keyframes scroll {

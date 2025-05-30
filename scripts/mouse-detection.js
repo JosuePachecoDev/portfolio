@@ -6,6 +6,7 @@ if (window.matchMedia("(max-width: 768px)").matches) {
   intersectionObserver();
 } else {
   hoverWithMouse();
+  iconsHover();
 };
 
 function hoverWithMouse() {
