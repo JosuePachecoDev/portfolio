@@ -31,7 +31,7 @@ function hoverWithMouse() {
                     <a href="https://github.com/JosuePachecoDev/password-generator.git">
                         <img class="project-svg" src="multimedia_files/github-isotype.svg" alt="">
                     </a>
-                    <a href="https://josuepachecodev.github.io/password-generator/" target="_blank">
+                    <a href="https://josuepachecodev.github.io/password-generator/" target="_blank" rel="noopener noreferrer">
                         <img class="project-svg" src="multimedia_files/new-tab-icon.svg" alt="">
                     </a>
                 `;
@@ -40,7 +40,7 @@ function hoverWithMouse() {
                     <a href="https://github.com/JosuePachecoDev/page-not-found.git">
                         <img class="project-svg" src="multimedia_files/github-isotype.svg" alt="">
                     </a>
-                    <a href="https://josuepachecodev.github.io/page-not-found/" target="_blank">
+                    <a href="https://josuepachecodev.github.io/page-not-found/" target="_blank" rel="noopener noreferrer">
                         <img class="project-svg" src="multimedia_files/new-tab-icon.svg" alt="">
                     </a>
                 `;
@@ -49,7 +49,7 @@ function hoverWithMouse() {
                     <a href="https://github.com/JosuePachecoDev/coffe-shop-website.git">
                         <img class="project-svg" src="multimedia_files/github-isotype.svg" alt="">
                     </a>
-                    <a href="https://josuepachecodev.github.io/coffe-shop-website/" target="_blank">
+                    <a href="https://josuepachecodev.github.io/coffe-shop-website/" target="_blank" rel="noopener noreferrer">
                         <img class="project-svg" src="multimedia_files/new-tab-icon.svg" alt="">
                     </a>
                 `;
@@ -92,7 +92,7 @@ function intersectionObserver() {
                     <a href="https://github.com/JosuePachecoDev/password-generator.git">
                         <img class="project-svg" src="multimedia_files/github-isotype.svg" alt="">
                     </a>
-                    <a href="https://josuepachecodev.github.io/password-generator/" target="_blank">
+                    <a href="https://josuepachecodev.github.io/password-generator/" target="_blank" rel="noopener noreferrer">
                         <img class="project-svg" src="multimedia_files/new-tab-icon.svg" alt="">
                     </a>
                 `;
@@ -101,7 +101,7 @@ function intersectionObserver() {
                     <a href="https://github.com/JosuePachecoDev/page-not-found.git">
                         <img class="project-svg" src="multimedia_files/github-isotype.svg" alt="">
                     </a>
-                    <a href="https://josuepachecodev.github.io/page-not-found/" target="_blank">
+                    <a href="https://josuepachecodev.github.io/page-not-found/" target="_blank" rel="noopener noreferrer">
                         <img class="project-svg" src="multimedia_files/new-tab-icon.svg" alt="">
                     </a>
                 `;
@@ -110,7 +110,7 @@ function intersectionObserver() {
                     <a href="https://github.com/JosuePachecoDev/coffe-shop-website.git">
                         <img class="project-svg" src="multimedia_files/github-isotype.svg" alt="">
                     </a>
-                    <a href="https://josuepachecodev.github.io/coffe-shop-website/" target="_blank">
+                    <a href="https://josuepachecodev.github.io/coffe-shop-website/" target="_blank" rel="noopener noreferrer">
                         <img class="project-svg" src="multimedia_files/new-tab-icon.svg" alt="">
                     </a>
                 `;
