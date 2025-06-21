@@ -24,18 +24,18 @@ body {
     padding: 3rem 0;
 }
 
-.rol {
-    color: rgb(82, 82, 82);
-}
-
 .porfile-picture {
     width: 200px;
     height: auto;
     border-radius: 1rem;
 }
 
-.name {
-    margin: 1rem 0 0 0;
+.about-me-container h2 {
+    margin: 16px 0 0 0;
+}
+
+.rol {
+    color: rgb(82, 82, 82);
 }
 
 .about-svg-container {
