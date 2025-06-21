@@ -146,15 +146,11 @@ body {
 }
 
 #project-1 {
-    background-image: url(../multimedia_files/img-demo-password-generator.jpg);
+    background-image: url(../media/img-demo-password-generator.jpg);
 }
 
 #project-2 {
-    background-image: url(../multimedia_files/img-demo-error-404-ep.jpg);
-}
-
-#project-3 {
-    background-image: url(../multimedia_files/img-demo-coffe-monster.jpg);
+    background-image: url(../media/img-demo-coffe-monster.jpg);
 }
 
 .project-svg {
