@@ -140,9 +140,10 @@ body {
     opacity: 1;
 }
 
-.pi a {
-    position: relative;
-    z-index: 2;
+.pii-1, .pii-2, .pii-3 {
+    opacity: 0%;
+    z-index: 1;
+    transition: opacity 0.2s ease;
 }
 
 #project-1 {
