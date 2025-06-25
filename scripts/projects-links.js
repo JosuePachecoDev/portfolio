@@ -9,7 +9,7 @@ if (window.matchMedia("(max-width: 768px)").matches) {
 } else {
     projectsHoverWithMouse();
     iconsHover();
-};
+}
 
 function projectsHoverWithMouse() {
     projectBox.forEach(div => {
@@ -62,7 +62,7 @@ function projectsHoverWithMouse() {
             });
         });
     });
-};
+}
 
 function intersectionObserver() {
     const observer = new IntersectionObserver((entries) => {
@@ -121,4 +121,8 @@ function intersectionObserver() {
     });
 
     projectBox.forEach(proj => observer.observe(proj));
-};
+}
+
+function projectsTabOrder() {
+    console.log();
+}
