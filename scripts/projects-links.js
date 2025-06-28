@@ -31,14 +31,17 @@ function projectsHoverWithMouse() {
             if (e.target.id === "project-1") {
                 projectOneImageIcon.forEach(icon => {
                     icon.style.opacity = "100%";
+                    icon.style.display = "initial";
                 });
             } else if (e.target.id === "project-2") {
                 projectTwoImageIcon.forEach(icon => {
                     icon.style.opacity = "100%";
+                    icon.style.display = "initial";
                 });
             } else if (e.target.id === "project-3") {
                 projectThreeImageIcon.forEach(icon => {
                     icon.style.opacity = "100%";
+                    icon.style.display = "initial";
                 });
             }
 
@@ -121,8 +124,4 @@ function intersectionObserver() {
     });
 
     projectBox.forEach(proj => observer.observe(proj));
-}
-
-function projectsTabOrder() {
-    console.log();
 }
