@@ -86,7 +86,7 @@ function intersectionObserver() {
                 pi.classList.remove("pi-on");
                 pii.forEach(icon => {
                     icon.style.opacity = "0%";
-                    icon.style.display = "initial";
+                    icon.style.display = "none";
                 });
             }
         });
@@ -96,3 +96,23 @@ function intersectionObserver() {
 
     projectBox.forEach(proj => observer.observe(proj));
 }
+
+projectBox.forEach(project => {
+    const img = project.querySelector(".pi");
+    const imgIcos = img.querySelectorAll("a");
+    project.addEventListener("focus", () => {
+        img.classList.add("pi-on");
+        imgIcos.forEach(icon => {
+            icon.style.display = "initial";
+            icon.style.opacity = "100%";
+        });
+    });
+
+    project.addEventListener("blur", () => {
+        img.classList.remove("pi-on");
+        imgIcos.forEach(icon => {
+            icon.style.display = "none";
+            icon.style.opacity = "0%";
+        });
+    });
+});
