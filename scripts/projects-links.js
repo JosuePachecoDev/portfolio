@@ -71,52 +71,23 @@ function intersectionObserver() {
     const observer = new IntersectionObserver((entries) => {
         entries.forEach(entry => {
             const project = entry.target;
-            const pi = project.querySelector('.pi');
+            const pi = project.querySelector(".pi");
+            const pii = pi.querySelectorAll("a");
 
             if (entry.isIntersecting) {
-                project.classList.add('visible');
-                pi.classList.add('pi-on');
-                if (pi.id === "project-1") {
-                    pi.innerHTML = `
-                    <a href="https://github.com/JosuePachecoDev/password-generator.git">
-                        <img class="project-svg" src="media/icons/github-isotype.svg" alt="">
-                    </a>
-                    <a href="https://josuepachecodev.github.io/password-generator/" target="_blank" rel="noopener noreferrer">
-                        <img class="project-svg" src="#" alt="">
-                    </a>
-                `;
-                } else if (pi.id === "project-2") {
-                    pi.innerHTML = `
-                    <a href="https://github.com/JosuePachecoDev/page-not-found.git">
-                        <img class="project-svg" src="media/icons/github-isotype.svg" alt="">
-                    </a>
-                    <a href="https://josuepachecodev.github.io/page-not-found/" target="_blank" rel="noopener noreferrer">
-                        <img class="project-svg" src="#" alt="">
-                    </a>
-                `;
-                } else if (pi.id === "project-3") {
-                    pi.innerHTML = `
-                    <a href="https://github.com/JosuePachecoDev/coffe-shop-website.git">
-                        <img class="project-svg" src="media/icons/github-isotype.svg" alt="">
-                    </a>
-                    <a href="https://josuepachecodev.github.io/coffe-shop-website/" target="_blank" rel="noopener noreferrer">
-                        <img class="project-svg" src="#" alt="">
-                    </a>
-                `;
-                } else {
-                    pi.innerHTML = `
-                    <a href="#">
-                        <img class="project-svg" src="media/icons/github-isotype.svg" alt="">
-                    </a>
-                    <a href="#">
-                        <img class="project-svg" src="#" alt="">
-                    </a>
-                    `;
-                }
+                project.classList.add("visible");
+                pi.classList.add("pi-on");
+                pii.forEach(icon => {
+                    icon.style.opacity = "100%";
+                    icon.style.display = "initial";
+                });
             } else {
-                project.classList.remove('visible');
-                pi.classList.remove('pi-on');
-                pi.innerHTML = "";
+                project.classList.remove("visible");
+                pi.classList.remove("pi-on");
+                pii.forEach(icon => {
+                    icon.style.opacity = "0%";
+                    icon.style.display = "initial";
+                });
             }
         });
     }, {
