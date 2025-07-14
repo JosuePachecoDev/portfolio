@@ -66,21 +66,22 @@
                         </label>
                         <label>
                             <img class="skills-svg" src="media/icons/css-isotype.svg" alt="">
-                            <span>CSS</span>
+                            <span aria-label="Manejo de CSS para enbellecer, atribuir comportamientos, agregar animaciones, mejorar la accesibilidad, entre otras cosas.">CSS</span>
                         </label>
                         <label>
                             <img class="skills-svg" src="media/icons/javascript-isotype.svg" alt="">
-                            <span>Javascript</span>
+                            <span aria-label="Manejo de Javascript darle al usuario la posibilidad de interactuar y algunos otros procesos que requiere el back-end.">Javascript</span>
                         </label>
                         <label>
                             <img class="skills-svg" src="media/icons/adobe-ilustrator-isotype.svg" alt="">
-                            <span>Ilustrator</span>
+                            <span aria-label="Manejo de Adobe Ilustrator para crear piezas vectorizadas como iconos o SVG que se puedan escalar.">Ilustrator</span>
                         </label>
                         <label>
                             <img class="skills-svg" src="media/icons/adobe-photoshop-isotype.svg" alt="">
-                            <span>Photoshop</span>
+                            <span aria-label="Manejo de Adobe Photoshop para crear imagenes, ediciones o montajes en mapa de bits.">Photoshop</span>
                         </label>
-                        <label aria-hidden="tru">
+                        <!-- diplicates -->
+                        <label aria-hidden="true">
                             <img class="skills-svg" src="media/icons/html-5-isotype.svg" alt="">
                             <span>HTML</span>
                         </label>
@@ -109,10 +110,11 @@
         </div>
         <section class="my-work section-padding">
             <h2>Algo de mi trabajo</h2>
+            <p>Para ver el proyecto en la web o su repositorio de GitHub, puedes posar el cursor sobre la imagen de cada proyecto o navegando con la tabulación.</p>
             <div class="projects-container">
                 <!--     .pii-$ = Project Image Icon     -->
                 <div class="pcon">
-                    <div class="project" id="p1" tabindex="0">
+                    <div class="project" id="p1" tabindex="0" aria-label="Projecto">
                         <div class="pi" id="project-1">
                             <a href="https://github.com/JosuePachecoDev/password-generator.git" class="pii-1" tabindex="-1" aria-label="Ir al repositorio del proyecto en GitHub, se abre en una nueva ventana.">
                                 <img class="project-svg" src="media/icons/github-isotype.svg" alt="">
@@ -123,13 +125,13 @@
                         </div>
                         <div class="pt">
                             <h3>Generador de contraseñas</h3>
-                            <p>Este mini-proyecto es un generador de contraseñas aleatorias cuya lógica se basa en los "arrays" de Javascript y que me ayudó a comprender conceptos como bucles, funciones, parámetros y algunas otras cosas más que se detallan en el repositorio de Github.</p>
+                            <p>Este mini-proyecto es un generador de contraseñas aleatorias cuya lógica se basa en los "arrays" de Javascript y que me ayudó a comprender conceptos como bucles, funciones, parámetros y algunas otras cosas más que se detallan en el repositorio de GitHub.</p>
                         </div>
                     </div>
                 </div>
 
                 <div class="pcon">
-                    <div class="project" id="p2" tabindex="0">
+                    <div class="project" id="p2" tabindex="0" aria-label="Projecto">
                         <div class="pi" id="project-2">
                             <a href="https://github.com/JosuePachecoDev/coffe-shop-website.git" class="pii-2" tabindex="-1" aria-label="Ir al repositorio del proyecto en GitHub, se abre en una nueva ventana.">
                                 <img class="project-svg" src="media/icons/github-isotype.svg" alt="">
@@ -215,15 +217,15 @@
                 <ul>
                     <div class="li-element-container">
                         <img class="co-svg" src="media/icons/phone-icon.svg" alt="">
-                        <li aria-label="Número de teléfono del desarrollador">+502 4505 9318</li>
+                        <li aria-label="Número de teléfono del desarrollador: +502 45059318">+502 4505 9318</li>
                     </div>
                     <div class="li-element-container">
                         <img class="co-svg" src="media/icons/email-icon.svg" alt="">
-                        <li aria-label="Correo electrónico del desarrollador">josue2.benjamin6@gmail.com</li>
+                        <li aria-label="Correo electrónico del desarrollador: josue2.benjamin6@gmail.com">josue2.benjamin6@gmail.com</li>
                     </div>
                 </ul>
             </div>
-            <div class="pm-container">
+            <div class="pm-container" aria-hidden="true">
                 <img class="monogram" src="media/personal/monogram.svg" alt="">
                 <label>
                     <h3 class="name2 black-color">Josué Benjamín Pacheco</h3>
