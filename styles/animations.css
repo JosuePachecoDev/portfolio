@@ -6,6 +6,36 @@
     transition: fill 0.15s ease;
 }
 
+:root {
+  --text-color: rgb(7, 18, 136);
+  --characters: 20ch;
+  --characters-steps: 20;
+}
+
+.typewriter {
+  border-right: 10px solid var(--text-color);
+  width: 0;
+  white-space: nowrap;
+  overflow: hidden;
+  animation: 
+    typewriter 2s steps(var(--characters-steps)) 0.5s forwards, 
+    blink 0.9s infinite;
+}
+
+@keyframes typewriter {
+  to {  width: var(--characters); }
+}
+
+@keyframes blink {
+  0%   { 
+    border-right-color: transparent;     }
+  50%  { 
+    border-right-color: var(--cursor-color); 
+  }
+  100% { 
+    border-right-color: transparent;     }
+}
+
 @keyframes scroll {
     0% {
       transform: translateX(0);
